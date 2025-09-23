@@ -6,20 +6,147 @@
   "mail": "Email:",
   "telegram": "Telegram:",
 
-   "profileTitle": "Profile",
-    "goal": "Goal",
-    "descriptionProfile":"Frontend developer, experience in creating web applications for 1 year. \nOpen to any offers (work in the state, on a contractual basis, self-employment). \nI participate in hackathons and online web development competitions. \nI am constantly learning new technologies and improving existing skills. \nI devote my free time to studying modern trends in web development and participating in open-source projects.",
-    "linkCV": "Link to CV:",
-    "dowlandCV": "Download the CV (docx):",
+  "profileTitle": "Profile",
+  "goal": "Goal",
+  "descriptionProfile": "Frontend developer, experience in creating web applications for 1 year. \nOpen to any offers (work in the state, on a contractual basis, self-employment). \nI participate in hackathons and online web development competitions. \nI am constantly learning new technologies and improving existing skills. \nI devote my free time to studying modern trends in web development and participating in open-source projects.",
+  "linkCV": "Link to CV:",
+  "dowlandCV": "Download the CV (docx):",
 
-    "certificateTitle": "Certificates",
-    "skillsTitle": "Skills",
-    "skillsAPI": "Work with API request",
-    "skillsBD": "Work with database",
-    "skillsAdaptive": "Adaptive and cross-browser layout",
+  "certificateTitle": "Certificates",
+  "skillsTitle": "Skills",
+  "skillsAPI": "Work with API request",
+  "skillsBD": "Work with database",
+  "skillsAdaptive": "Adaptive and cross-browser layout",
 
-        "educationTitle": "Education",
-    "educationBGAM": "2009 I graduated from the BGAM",
-    "educationSENLA": "2020 Courses Automated testing in the company Senla(Java)"
+  "educationTitle": "Education",
+  "educationBGAM": "2009 I graduated from the BGAM",
+  "educationSENLA": "2020 Courses Automated testing in the company Senla(Java)",
+
+  "stack": "Stack: ",
+  "experienceTitle": "Work Experience",
+  "experiencePartNow": "03/2025 – present",
+  "experiencePartLab": "01/2024 – 04/2024, TechInLab | Junior Frontend Developer trainee",
+  "experiencePartFreelance": "02/2022 – 05/2024, Freelance | Frontend Developer",
+  "projectsNow": [
+    {
+      "id": 1,
+      "title": "do-it.studio",
+      "link": "https://do-it.studio/",
+      "technologies": [
+        "NextJS",
+        "TypeScript",
+        "Swiper",
+        "SASS",
+        "CSS",
+        "Figma",
+        "Git",
+        "Git submodule",
+        "GitHub"
+      ],
+      "tasks": [
+        "Made a layout for a multi-page website(pixel perfect).",
+        "Implemented carousel (Swiper), burger-menu and popup functionality using JavaScript.",
+        "Ensured cross-browser compatibility and adaptability of the site."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Launcher",
+      "link": "https://abyssrising.games/",
+      "technologies": [
+        "NextJS",
+        "TypeScript",
+        "styled-components",
+        "Figma",
+        "Git",
+        "GitHub"
+      ],
+      "tasks": [
+        "Developed an interface for the AbyssRising.games website based on Next.js + TypeScript.",
+        "Created universal UI components (TabButton, CardsBoard, UserImage, etc.) with adaptability and stylized states.",
+        "Implemented changing the user's avatar and password: file selection, preview, sending to the server, UI update.",
+        "Provided adaptive and cross-browser layout, worked with hover effects, animation."
+      ]
+    }
+  ],
+  "projectsLab": [
+    {
+      "id": 1,
+      "title": "Online application for FIFA tournaments. Players compete by winning FIFA matches.",
+      "link": "/",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Redux",
+        "SASS",
+        "CSS",
+        "Git",
+        "GitLab"
+      ],
+      "tasks": [
+        "Added a tournaments section to the admin panel.",
+        "Added sections in the admin panel for changing tournament conditions.",
+        "Edited the UI of the player cards.",
+        "Added data validation when user changes password.",
+        "Edited the data display for tournaments played."
+      ]
+    }
+  ],
+  "projectsFreelance": [
+    {
+      "id": 1,
+      "title": "BELONI",
+      "link": "https://белони.рф/",
+      "technologies": [
+        "Swiper",
+        "JavaScript",
+        "CSS",
+        "Git",
+        "GitHub"
+      ],
+      "tasks": [
+        "Made a layout for a multi-page website(pixel perfect).",
+        "Implemented carousel (Swiper), burger-menu and popup functionality using JavaScript.",
+        "Ensured cross-browser compatibility and adaptability of the site."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "URANIUM",
+      "link": "https://sergey-lesnevskiy.github.io/",
+      "technologies": [
+        "WordPress",
+        "Woocommerce",
+        "SLICK SLIDER",
+        "JavaScript",
+        "filezilla",
+        "CSS",
+        "Git",
+        "GitHub"
+      ],
+      "tasks": [
+        "Worked with layout (aligned to the layout).",
+        "Customised woocommerce personal account (adding pages, changing breadcrumbs, changing title).",
+        "Worked with WordPress hooks and filters."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "DMSH6.BY",
+      "link": "https://dmsh6.by/",
+      "technologies": [
+        "WordPress",
+        "Becloud",
+        "PHP",
+        "CSS"
+      ],
+      "tasks": [
+        "Studied the BeCloud secure shared hosting documentation and successfully migrated the site to the server.",
+        "Studied the documentation for working with WordPress(installing, configuring and administering the site).",
+        "Optimized the performance of the website and ensured it ran smoothly.",
+        "I added components to the pages with the help of PHP."
+      ]
+    }
+
+  ]
 }
-

@@ -11,6 +11,7 @@ import { GlobalStyles } from './styles'
 import { ThemeProvider } from "styled-components";
 import { useState } from "react";
 import { lightTheme, darkTheme } from "./theme";
+import Projects from './components/Projects'
 
 function App() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
@@ -21,12 +22,12 @@ function App() {
       <Header currentTheme={theme} toggleTheme={() => setTheme(theme === "light" ? "dark" : "light")}/>
       <Main>
         <Container>
-
         <AboutUs/>
         <Profile/>
         <Certificate/>
         <Skills/>
         <Education/>
+        <Projects/>
         </Container>
       </Main>
     </ThemeProvider>
