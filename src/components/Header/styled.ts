@@ -15,11 +15,16 @@ import styled from "styled-components";
 //   $border?: string;
 //   $opacity?: string;
 // }
+interface ToggleButtonProps {
+  $width?: string;
+  
+}
 
-export const ToggleButton = styled.button`
+export const ToggleButton = styled.button<ToggleButtonProps>`
   border: none;
   outline: none;
   padding: 8px 12px;
+  width: ${({ $width }) => $width};
   border-radius: 8px;
   background-color: #dedede;
   transition: background-color 0.6s ease, color 0.6s ease;

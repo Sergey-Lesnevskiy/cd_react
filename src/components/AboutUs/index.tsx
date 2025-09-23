@@ -12,22 +12,24 @@ import {
   TitleName,
   WrapperImage,
 } from "./styled";
+import { useTranslation } from "react-i18next";
 
 function AboutUs() {
+   const { t } = useTranslation();
   return (
     <About>
       <LeftSide>
-        <TitleName>Name</TitleName>
-        <Role>Frontend</Role>
+        <TitleName>{t("name")}</TitleName>
+        <Role>{t("role")}</Role>
         <ListContact>
           <Item>
-            <Contact>tel:</Contact> <ContactValue href="tel:+375292505053">+375292505053</ContactValue>
+            <Contact>{t("phone")}</Contact> <ContactValue href="tel:+375292505053">+375292505053</ContactValue>
           </Item>
           <Item>
-            <Contact>mail:</Contact> <ContactValue href="mailto:lesnevsky.sergey@gmail.com">lesnevsky.sergey@gmail.com</ContactValue>
+            <Contact>{t("mail")}</Contact> <ContactValue href="mailto:lesnevsky.sergey@gmail.com">lesnevsky.sergey@gmail.com</ContactValue>
           </Item>
           <Item>
-            <Contact>telegram:</Contact> <ContactValue href="https://t.me/SergeyLesnevsky">@SergeyLesnevsky</ContactValue>
+            <Contact>{t("telegram")}</Contact> <ContactValue href="https://t.me/SergeyLesnevsky">@SergeyLesnevsky</ContactValue>
           </Item>
         </ListContact>
       </LeftSide>

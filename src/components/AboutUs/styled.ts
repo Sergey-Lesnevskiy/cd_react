@@ -27,7 +27,7 @@ export const Role = styled.h2`
   font-weight: 700;
 `;
 export const ListContact = styled.ul`
-margin: 50px 0 ;
+margin: 50px 0 0 ;
 display: flex;
 flex-direction: column;
 gap: 10px;
