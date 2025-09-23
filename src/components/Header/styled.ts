@@ -17,7 +17,6 @@ import styled from "styled-components";
 // }
 interface ToggleButtonProps {
   $width?: string;
-  
 }
 
 export const ToggleButton = styled.button<ToggleButtonProps>`

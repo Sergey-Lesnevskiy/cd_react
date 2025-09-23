@@ -7,5 +7,19 @@
   "telegram": "Telegram:",
 
    "profileTitle": "Profile",
-    "goal": "Goal"
+    "goal": "Goal",
+    "descriptionProfile":"Frontend developer, experience in creating web applications for 1 year. \nOpen to any offers (work in the state, on a contractual basis, self-employment). \nI participate in hackathons and online web development competitions. \nI am constantly learning new technologies and improving existing skills. \nI devote my free time to studying modern trends in web development and participating in open-source projects.",
+    "linkCV": "Link to CV:",
+    "dowlandCV": "Download the CV (docx):",
+
+    "certificateTitle": "Certificates",
+    "skillsTitle": "Skills",
+    "skillsAPI": "Work with API request",
+    "skillsBD": "Work with database",
+    "skillsAdaptive": "Adaptive and cross-browser layout",
+
+        "educationTitle": "Education",
+    "educationBGAM": "2009 I graduated from the BGAM",
+    "educationSENLA": "2020 Courses Automated testing in the company Senla(Java)"
 }
+
