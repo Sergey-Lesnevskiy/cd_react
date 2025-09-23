@@ -37,5 +37,13 @@ export const Description = styled.p<DescriptionProps>`
   gap: ${({ $gap }) => $gap};
   margin: ${({ $margin }) => $margin};
   line-height: 1.5;
+  @media(max-width: 720px){
+    padding-left: 10px;
+  }
+  @media(max-width: 420px){
+    flex-direction: column;
+    gap: 0;
+    margin: 5px 0;
+  }
 `;
 

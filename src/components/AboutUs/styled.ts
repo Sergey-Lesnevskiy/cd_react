@@ -6,13 +6,16 @@ export const About = styled.section`
   justify-content: space-between;
   padding: 8px;
   border-radius: 20px;
-    /* background: ${({ theme }) => theme.bg};
-  color: ${({ theme }) => theme.text}; */
+  @media(max-width: 720px){
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 `;
 
 export const LeftSide = styled.div`
 display: flex;
 flex-direction: column;
+align-self: flex-start;
 `;
 export const RightSide = styled.div`
 display: flex;
