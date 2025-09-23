@@ -6,7 +6,8 @@ export const About = styled.section`
   justify-content: space-between;
   padding: 8px;
   border-radius: 20px;
-  background-color: #e9e9e945;
+    /* background: ${({ theme }) => theme.bg};
+  color: ${({ theme }) => theme.text}; */
 `;
 
 export const LeftSide = styled.div`
@@ -21,26 +22,37 @@ export const TitleName = styled.h1`
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 10px;
+    background: ${({ theme }) => theme.bg};
+  color: ${({ theme }) => theme.text};
 `;
 export const Role = styled.h2`
   font-size: 30px;
   font-weight: 700;
+    background: ${({ theme }) => theme.bg};
+  color: ${({ theme }) => theme.text};
 `;
 export const ListContact = styled.ul`
 margin: 50px 0 0 ;
 display: flex;
 flex-direction: column;
 gap: 10px;
+  background: ${({ theme }) => theme.bg};
+  color: ${({ theme }) => theme.text};
 `;
 export const Item = styled.li`
   display: flex;
   gap: 8px;
+    background: ${({ theme }) => theme.bg};
+  color: ${({ theme }) => theme.text};
 `;
 export const Contact = styled.p`
   font-weight: 700;
+    background: ${({ theme }) => theme.bg};
+  color: ${({ theme }) => theme.text};
 `;
 export const ContactValue = styled.a`
-  color: black;
+    background: ${({ theme }) => theme.bg};
+  color: ${({ theme }) => theme.text};
 `;
 
 export const WrapperImage = styled.div`

@@ -1,22 +1,9 @@
 import styled from "styled-components";
 
-// interface PrimaryButtonContainerProps {
-//   $width?: string;
-//   $widthPhone?: string;
-//   $padding?: string;
-//   $margin?: string;
-//   $marginPhone?: string;
-//   $background?: string;
-//   $color?: string;
-//   $fontSize?: string;
-//   $fontWeight?: string;
-//   $fontFamily?: string;
-//   $borderRadius?: string;
-//   $border?: string;
-//   $opacity?: string;
-// }
+
 interface ToggleButtonProps {
   $width?: string;
+  $theme?: string;
 }
 
 export const ToggleButton = styled.button<ToggleButtonProps>`
@@ -25,7 +12,8 @@ export const ToggleButton = styled.button<ToggleButtonProps>`
   padding: 8px 12px;
   width: ${({ $width }) => $width};
   border-radius: 8px;
-  background-color: #dedede;
+  background: ${({ theme }) => theme.bg};
+  color: ${({ theme }) => theme.text};
   transition: background-color 0.6s ease, color 0.6s ease;
   @media (hover: hover) {
     &:hover {
@@ -34,15 +22,13 @@ export const ToggleButton = styled.button<ToggleButtonProps>`
     }
   }
 `;
-export const LogoImage = styled.img`
-  width: 80px;
-  height: 40px;
-`;
+
 export const LogoWrapper = styled.a`
   border: none;
   outline: none;
   text-decoration: none;
-  color: black;
+  background: ${({ theme }) => theme.bg};
+  color: ${({ theme }) => theme.text};
 `;
 export const WrapperButtons = styled.div`
   display: flex;
@@ -53,6 +39,8 @@ export const WrapperHeader = styled.header`
   justify-content: space-evenly;
   align-items: center;
   padding: 10px 0;
+  background: ${({ theme }) => theme.bg};
+  color: ${({ theme }) => theme.text};
 `;
 // export const PrimaryButtonContainer = styled.button<PrimaryButtonContainerProps>`
 //   border: none;

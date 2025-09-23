@@ -1,8 +1,13 @@
 import { useTranslation } from "react-i18next";
-import { LogoImage, LogoWrapper, ToggleButton, WrapperButtons, WrapperHeader } from "./styled";
-import { images } from "../../constants/images";
+import { LogoWrapper, ToggleButton, WrapperButtons, WrapperHeader } from "./styled";
+import { IconLogo } from "../../assets/images/Logo";
 
-function Header() {
+export interface HeaderProps {
+  toggleTheme: () => void;
+  currentTheme?: "light" | "dark";
+}
+
+const Header: React.FC<HeaderProps> = ({ toggleTheme , currentTheme}) => {
   const { t, i18n } = useTranslation();
 
   const toggleLanguage = () => {
@@ -12,13 +17,13 @@ function Header() {
   return (
     <WrapperHeader>
       <LogoWrapper href="/">
-        <LogoImage src={images.general.logo} alt="logo" />
+        <IconLogo color={currentTheme !== "light" ? "#FFF": "#111111"}/>
       </LogoWrapper>
       <WrapperButtons>
         <ToggleButton  onClick={toggleLanguage} $width="40px">
           {i18n.language}
         </ToggleButton>
-        <ToggleButton $width="70px">{t("theme")}</ToggleButton>
+        <ToggleButton onClick={toggleTheme} $width="70px">{t("theme")}</ToggleButton>
       </WrapperButtons>
     </WrapperHeader>
   );
