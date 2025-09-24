@@ -11,6 +11,7 @@ i18n
 i18n.init({
     resources: { en: { translation: en }, ru: { translation: ru } },
     fallbackLng: "en",
+    load: "languageOnly", 
     interpolation: { escapeValue: false },
 });
 
