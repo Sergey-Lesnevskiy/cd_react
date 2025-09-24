@@ -19,7 +19,6 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme , currentTheme}) => {
   return (
     <WrapperHeader>
       <Container $display="flex" $justifyContent="space-between" $borderRadius="20px" $color="#e9e9e945" $padding="6px 8px"> 
-        
       <LogoWrapper href="/">
         <IconLogo color={currentTheme !== "light" ? "#FFF": "#111111"}/>
       </LogoWrapper>

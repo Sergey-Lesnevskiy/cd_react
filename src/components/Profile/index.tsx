@@ -27,7 +27,7 @@ function Profile() {
       </Description>
       <Description $flex="flex" $gap="8px">
         {t("dowlandCV")}
-        <a href="./documents/CV.docx">СV.</a>
+        <a href="../../assets/documents/CV.docx">СV.</a>
       </Description>
     </WrapperSection>
   );
