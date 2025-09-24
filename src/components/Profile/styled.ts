@@ -23,6 +23,23 @@ export const TitleSection = styled.h3`
   border-bottom: 1px solid #0000001f;
 
 `;
+export const LikeButton = styled.a`
+
+border: none;
+  outline: none;
+  padding: 0px 12px;
+  border-radius: 8px;
+  background: #e9e9e945;
+  color: ${({ theme }) => theme.text};
+  transition: background-color 0.6s ease, color 0.6s ease;
+  @media (hover: hover) {
+    &:hover {
+      background-color: #585555ff;
+      color: white;
+    }
+  }
+
+`;
 
 export const SubTitleSection = styled.h4`
   padding: 10px 0;

@@ -1,5 +1,6 @@
 import {
   Description,
+  LikeButton,
   SubTitleSection,
   TitleSection,
   WrapperSection,
@@ -27,7 +28,7 @@ function Profile() {
       </Description>
       <Description $flex="flex" $gap="8px">
         {t("dowlandCV")}
-        <a href="/CV.docx" download="Sergey_CV.docx">СV.</a>
+        <LikeButton href="/CV.docx" download="Sergey_CV.docx">СV.</LikeButton>
       </Description>
     </WrapperSection>
   );
