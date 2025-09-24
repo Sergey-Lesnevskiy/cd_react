@@ -18,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme , currentTheme}) => {
 
   return (
     <WrapperHeader>
-      <Container $display="flex" $justifyContent="space-between" $borderRadius="20px" $color="#e9e9e945" $padding="8px"> 
+      <Container $display="flex" $justifyContent="space-between" $borderRadius="20px" $color="#e9e9e945" $padding="6px 8px"> 
         
       <LogoWrapper href="/">
         <IconLogo color={currentTheme !== "light" ? "#FFF": "#111111"}/>
@@ -27,7 +27,7 @@ const Header: React.FC<HeaderProps> = ({ toggleTheme , currentTheme}) => {
         <ToggleButton  onClick={toggleLanguage} $width="40px">
           {i18n.language}
         </ToggleButton>
-        <ToggleButton onClick={toggleTheme} $width="70px"><IconTheme color = {currentTheme !== "light" ? "#FFF": "#111111"}/></ToggleButton>
+        <ToggleButton onClick={toggleTheme} ><IconTheme color = {currentTheme !== "light" ? "#FFF": "#111111"}/></ToggleButton>
       </WrapperButtons>
       </Container>
     </WrapperHeader>

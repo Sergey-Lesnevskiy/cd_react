@@ -9,7 +9,7 @@ interface ToggleButtonProps {
 export const ToggleButton = styled.button<ToggleButtonProps>`
   border: none;
   outline: none;
-  padding: 8px 12px;
+  padding: 0px 12px;
   width: ${({ $width }) => $width};
   border-radius: 8px;
   background: #e9e9e945;
