@@ -19,6 +19,16 @@ export const GlobalStyles = createGlobalStyle`
     }
     a{
       text-decoration: none;
+      color: #2d2185ff;
+      transition: color 0.3s;
+      font-style: italic;
+    }
+    a:visited {
+      color: #111111be;
+    }
+    a:hover {
+      color: #302c51ff;
+      text-decoration: underline; 
     }
     li{
       list-style-type: none;
