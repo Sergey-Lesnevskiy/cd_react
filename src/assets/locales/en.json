@@ -5,23 +5,19 @@
   "phone": "Phone:",
   "mail": "Email:",
   "telegram": "Telegram:",
-
   "profileTitle": "Profile",
   "goal": "Goal",
   "descriptionProfile": "Frontend developer, experience in creating web applications for 1 year. \nOpen to any offers (work in the state, on a contractual basis, self-employment). \nI participate in hackathons and online web development competitions. \nI am constantly learning new technologies and improving existing skills. \nI devote my free time to studying modern trends in web development and participating in open-source projects.",
   "linkCV": "Link to CV:",
   "dowlandCV": "Download the CV (docx):",
-
   "certificateTitle": "Certificates",
   "skillsTitle": "Skills",
   "skillsAPI": "Work with API request",
   "skillsBD": "Work with database",
   "skillsAdaptive": "Adaptive and cross-browser layout",
-
   "educationTitle": "Education",
   "educationBGAM": "2009 I graduated from the BGAM",
   "educationSENLA": "2020 Courses Automated testing in the company Senla(Java)",
-
   "stack": "Stack: ",
   "experienceTitle": "Work Experience",
   "experiencePartNow": "03/2025 – present",
@@ -66,6 +62,29 @@
         "Created universal UI components (TabButton, CardsBoard, UserImage, etc.) with adaptability and stylized states.",
         "Implemented changing the user's avatar and password: file selection, preview, sending to the server, UI update.",
         "Provided adaptive and cross-browser layout, worked with hover effects, animation."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "sharkup",
+      "link": "https://sharkup.io/",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "REST API",
+        "CSS3",
+        "HTML5",
+        "Git",
+        "GitHub",
+        "Swiper",
+        "Vite",
+        "Figma"
+      ],
+      "tasks": [
+        "Developed the frontend part of the crowdfunding platform from scratch using React for the web version.",
+        "Implemented a responsive interface with cross-platform compatibility.",
+        "Integrated a REST API for interacting with the backend, and implemented real-time data loading and display.",
+        "Optimized the application's performance by implementing lazy loading, component memoization, and optimizing rerenders."
       ]
     }
   ],
@@ -147,6 +166,5 @@
         "I added components to the pages with the help of PHP."
       ]
     }
-
   ]
 }
