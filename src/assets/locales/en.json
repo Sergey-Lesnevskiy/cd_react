@@ -70,10 +70,9 @@
       "link": "https://sharkup.io/",
       "technologies": [
         "React",
+        "Redux",
         "TypeScript",
         "REST API",
-        "CSS3",
-        "HTML5",
         "Git",
         "GitHub",
         "Swiper",
@@ -85,6 +84,48 @@
         "Implemented a responsive interface with cross-platform compatibility.",
         "Integrated a REST API for interacting with the backend, and implemented real-time data loading and display.",
         "Optimized the application's performance by implementing lazy loading, component memoization, and optimizing rerenders."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "sharkup App",
+      "link": "https://sharkup.io/",
+      "technologies": [
+        "React Native",
+        "Redux",
+        "TypeScript",
+        "REST API",
+        "CSS3",
+        "HTML5",
+        "Git",
+        "GitHub",
+        "Vite",
+        "Figma"
+      ],
+      "tasks": [
+        "Participated in the development of a crowdfunding platform mobile app using React Native for mobile versions",
+        "Integrated a REST API for interacting with the backend, and implemented real-time data loading and display",
+        "Built iOS and Android apps using the Expo CLI."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Hily Bible App",
+      "link": "",
+      "technologies": [
+        "React Native",
+        "Redux",
+        "TypeScript",
+        "REST API",
+        "Git",
+        "GitHub",
+        "Vite",
+        "Figma"
+      ],
+      "tasks": [
+        "I participated in the development of the Hily Bible mobile app using React Native for mobile versions",
+        "I worked on layout and animation",
+        "I used XCode for iOS."
       ]
     }
   ],
