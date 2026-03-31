@@ -110,7 +110,7 @@
     },
     {
       "id": 5,
-      "title": "Hily Bible App",
+      "title": "Holy Bible App",
       "link": "",
       "technologies": [
         "React Native",
@@ -126,6 +126,27 @@
         "Учавствовал в разработке мобильного приложения Hily Bible, используя React Native для мобильных версий",
         "Работал над версткой, анимацией",
         "Собирал для iOS использовал XCode."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Dream Novels",
+      "link": "https://dreamnovels.org/",
+      "technologies": [
+        "React",
+        "Redux",
+        "TypeScript",
+        "REST API",
+        "Git",
+        "GitHub",
+        "Vite",
+        "Figma"
+      ],
+      "tasks": [
+        "Разработал frontend-часть сайта Dream Novels, используя React, Embla-carousel для слайдеров, использовал axios для запроса к серверу.",
+        "Работал над версткой, анимацией, запросами к серверу",
+        "Трудности были в адаптивности, была только версия для мобильных устройств."
+
       ]
     }
   ],

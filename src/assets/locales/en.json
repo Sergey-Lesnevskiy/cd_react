@@ -110,7 +110,7 @@
     },
     {
       "id": 5,
-      "title": "Hily Bible App",
+      "title": "Holy Bible App",
       "link": "",
       "technologies": [
         "React Native",
@@ -126,6 +126,27 @@
         "I participated in the development of the Hily Bible mobile app using React Native for mobile versions",
         "I worked on layout and animation",
         "I used XCode for iOS."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Dream Novels",
+      "link": "https://dreamnovels.org/",
+      "technologies": [
+        "React",
+        "Redux",
+        "TypeScript",
+        "REST API",
+        "Git",
+        "GitHub",
+        "Vite",
+        "Figma"
+      ],
+      "tasks": [
+        "Developed the frontend part of the Dream Novels website using React, Embla-carousel for sliders, used axios for server requests.",
+        "Worked on layout, animation, and server requests",
+        "The difficulties were in adaptability; there was only a version for mobile devices."
+
       ]
     }
   ],
